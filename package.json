@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/javiergg13/curso-node/issues"
   },
-  "homepage": "https://github.com/javiergg13/curso-node#readme"
+  "homepage": "https://github.com/javiergg13/curso-node#readme",
+  "dependencies": {
+    "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
 }
