@@ -1,5 +1,6 @@
 const net = require('node:net')
 
+// eslint-disable-next-line space-before-function-paren
 function findAvailablePort(desiredPort) {
   return new Promise((resolve, reject) => {
     const server = net.createServer()
